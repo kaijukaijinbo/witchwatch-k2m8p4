@@ -1,0 +1,46 @@
+WITCH WATCH — JAPANESE SUBTITLE FURIGANA CORRECTION BUILD
+Build date: 2026-11-13
+Source repository: https://github.com/kaijukaijinbo/witchwatch-k2m8p4
+Source directory: Witch Watch/
+Source branch: master
+
+INPUT INVENTORY
+- 25 ASS subtitle files, episodes 01–25
+- UTF-8 text
+- 23,594 Dialogue events in total
+- 6,206 small-style events containing the ASS tag \fscy50 (annotation candidates; not every such event is necessarily furigana)
+
+CONFIRMED CORRECTIONS
+Episode 10 — [EMBER] Witch Watch - 10.jp.ass
+
+1) 00:01:39.99 — 伊武荊
+   Previous overlay: いぶ
+   Corrected overlay: いぶいばら
+   The previous overlay covered only 伊武 and omitted the reading of 荊.
+   The official anime character page identifies the character as “伊武 荊 / IBARA IBU”.
+
+2) 00:05:13.14 — 工理路
+   Previous overlay: たくみ
+   Corrected overlay: たくみりろ
+   The previous overlay covered only 工 and omitted the reading of 理路.
+   The official anime character page identifies the character as “工 理路 / RIRO TAKUMI”.
+
+Official terminology reference:
+https://witchwatch-anime.com/character/
+
+PRESERVATION
+- All 25 original episode filenames are retained.
+- Only the two existing furigana overlay text strings listed above are changed.
+- ASS event timestamps, positions, styles, layers, dialogue, and other metadata are retained.
+- Episode 10 remains at 1,028 Dialogue events; no cue was added, removed, or retimed.
+
+VALIDATION / SCOPE
+- All 25 source files were inventoried.
+- The dialogue-event and small-style overlay counts were recorded for each episode.
+- Episode 01–10 annotation overlays were matched against same-time lower dialogue for contextual inspection.
+- The corrections above are supported by the official character reference.
+- The repository folder does not contain video/audio or foreign-language subtitle tracks; therefore, no claim of audio or translation-track verification is made.
+- Episodes 11–25 are included unchanged. Their annotation readings have not been independently re-certified one by one in this build.
+- The 6,206 small-style events are a structural count, not a claim that all 6,206 are furigana or that every reading has received an exhaustive linguistic audit.
+
+This is a targeted, evidence-based correction build. It deliberately avoids changing other plausible readings without sufficient evidence.

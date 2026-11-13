@@ -1,0 +1,35 @@
+name: Build Witch Watch corrected furigana ZIP
+
+on:
+  push:
+    branches:
+      - witchwatch-furigana-corrected-2026-11-13
+
+permissions:
+  contents: read
+
+jobs:
+  package-subtitles:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out corrected branch
+        uses: actions/checkout@v4
+
+      - name: Package all episode subtitles and QC report
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          test "$(find 'Witch Watch' -maxdepth 1 -type f -name '*.ass' | wc -l)" -eq 25
+          cp Furigana_QC_Report.txt dist/
+          zip -j -q dist/WitchWatch_Corrected_Furigana.zip 'Witch Watch'/*.ass dist/Furigana_QC_Report.txt
+          unzip -t dist/WitchWatch_Corrected_Furigana.zip
+          test "$(unzip -Z1 dist/WitchWatch_Corrected_Furigana.zip | grep -c '\.ass$')" -eq 25
+
+      - name: Upload corrected subtitle archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: WitchWatch_Corrected_Furigana
+          path: dist/WitchWatch_Corrected_Furigana.zip
+          if-no-files-found: error
+          retention-days: 30
