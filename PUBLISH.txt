@@ -1,0 +1,42 @@
+How to publish this folder as a website
+=======================================
+
+This folder is a complete static website. Look at it first with the Preview button (or
+`python ai_share.pyw <this folder> --preview`), then upload it to a static host and give the AI
+the address.
+It has 31 files (3.0 MB).
+
+Option A - Cloudflare Pages (free)
+  Project names become addresses, so pick one nobody could guess, for example: aishare-0e84458f02
+  The site will be at https://<project name>.pages.dev/ (if the name is taken Cloudflare adds random
+  characters: always use the address Cloudflare shows you).
+  Free limits: 20,000 files per site and 25 MiB per file.
+
+  A1. Dashboard drag-and-drop (up to 1,000 files)
+      Workers & Pages > Create application > Get started > Drag and drop your files,
+      enter the project name, drop this folder, then Deploy site.
+
+  A2. wrangler (up to 20,000 files)
+      Needs Node.js. In a terminal:
+          npx wrangler login
+          npx wrangler pages project create aishare-0e84458f02
+          npx wrangler pages deploy "<path to this folder>" --project-name aishare-0e84458f02
+
+  Guide: https://developers.cloudflare.com/pages/platform/direct-upload/
+
+Option B - GitHub Pages
+  Put this folder's contents in a repository and turn on Pages for it. Published sites may be no larger
+  than 1 GB (soft limits: 100 GB bandwidth per month, 10 builds per hour). On the free plan Pages is for
+  public repositories, so the files become public; check GitHub's current plan terms.
+  The .nojekyll file in this folder is required, so keep it.
+
+Option C - any other static host (Netlify, Vercel, your own web server)
+  Upload the folder as-is. No build step is needed. Keep robots.txt at the top level.
+
+Then tell the AI:
+  "Read https://<your address>/llms.txt, then browse the site starting at https://<your address>/ ."
+
+Privacy
+  Anyone who has the address can read everything in this folder, and a public site can be found by
+  search engines. Use a random project name, keep secrets out (.env and key files are excluded by
+  default), and delete the site when you are finished.

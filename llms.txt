@@ -1,0 +1,16 @@
+# Witch Watch
+
+Read-only static snapshot of the project "Witch Watch" (generated 20261113_081247). It is an ordinary website: every page is plain HTML or plain text, and every page links to the next one.
+
+How to read it
+1. Home page: index.html (lists the top-level folders and files).
+2. Folder pages: d/<folder>/index.html. File pages: f/<file path>/1.html, then follow the 'next' link until 'page N of N'.
+   Each page holds at most about 272 KB of source text, shown with line numbers. If a page says it ends or starts mid-line, the line continues on the neighbouring page.
+3. (Plain-text copies were not generated for this site.)
+4. Whole-project maps: map/files-0001.txt lists every file with size, line count and page URL (1 part(s)).
+   (No Python or JS/TS definitions were found, so there is no symbol index.)
+5. Per file: f/<file path>/pages.html lists all pages with line ranges, and f/<file path>/outline.html lists its definitions (both exist only for files with more than one page).
+
+Contents: 25 text files, 2.8 MB, 25 pages.
+Paths in map files are relative to the site root.
+Also not included: 0 binary files, 0 files over the size limit, 0 unreadable files (they are listed in their folder pages).
