@@ -1,1 +1,0 @@
-Temporary trigger for exporting original subtitle files. Safe to delete with the temporary branch.
