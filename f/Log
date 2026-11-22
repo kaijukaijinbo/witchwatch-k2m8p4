@@ -1,0 +1,348 @@
+2026-11-22 12:13:56.903 [INFO    ] [MainThread] kanjilens:<module>:2928 | Fusion core initialized · app_dir=E:\Download\App\KanjiLens_Fusion · db=E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.db · online_dictionary=True
+2026-11-22 12:13:58.514 [INFO    ] [MainThread] kanjilens:main:8729 | ==============================================================================
+2026-11-22 12:13:58.740 [INFO    ] [MainThread] kanjilens:main:8730 | Starting KanjiLens Fusion 1.3.4 · Python 3.11.9 · OS Windows-10-10.0.26200-SP0
+2026-11-22 12:14:00.856 [INFO    ] [Win32WindowAudit] kanjilens:_run:8611 | External Win32 top-level window shown: hwnd=0x751a4e pid=39052 class='Chrome_WidgetWin_1' title='' exe='C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'
+2026-11-22 12:14:01.909 [INFO    ] [MainThread] kanjilens:_refresh_screen_cache:4973 | OCR screen topology cache refreshed: displays=2 geometries=[('LG FULL HD', 1920, 1080), ('DELL P2217H', 1920, 1080)]
+2026-11-22 12:14:01.969 [DEBUG   ] [MainThread] kanjilens:switch_page:8020 | UI page switch stage · page=dict stack_set_ms=0.0
+2026-11-22 12:14:02.099 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_run:1345 | Native selector thread DPI context set · PER_MONITOR_AWARE_V2
+2026-11-22 12:14:02.100 [INFO    ] [MainThread] kanjilens:start_capture_cache:655 | DXGI in-memory monitor cache initialization queued · target_fps=30 · ring_buffer_len=2
+2026-11-22 12:14:02.100 [INFO    ] [MainThread] kanjilens:debug_log:130 | Native Windows hotkeys registered: capture=Ctrl + Shift + 1, recapture=Ctrl + Shift + X
+2026-11-22 12:14:02.107 [INFO    ] [MainThread] kanjilens:__init__:7376 | KanjiLens Fusion UI initialized, Python=3.11.9, Qt=1.3.4, base=E:\Download\App\KanjiLens_Fusion
+2026-11-22 12:14:02.107 [INFO    ] [MainThread] kanjilens:__init__:7378 | Runtime lanes: capture=1(MSS fallback warm-up) storage=1 interactive=2 model=1 OCR=1; DXGI frame cache runs per output at 30fps; native selector owns a Win32 message thread; Manga OCR loads only after review is visible; settings writes=coalesced
+2026-11-22 12:14:02.108 [INFO    ] [MainThread] kanjilens:__init__:7379 | Optional datasets: kanjidic=False, tatoeba=False; online_dictionary=True; OCR screenshots auto-save disabled
+2026-11-22 12:14:02.122 [INFO    ] [MainThread] kanjilens:main:8739 | MainWindow construction completed · elapsed=3278.6ms
+2026-11-22 12:14:02.502 [INFO    ] [MainThread] kanjilens:eventFilter:8479 | Qt top-level window shown: class=MainWindow object='' title='KanjiLens Fusion 1.3.4' parent=<none> flags=0x800f001 geometry=(300, 91, 1320, 850) popup=False
+2026-11-22 12:14:02.517 [INFO    ] [MainThread] kanjilens:main:8745 | Main application window show requested · elapsed=395.6ms
+2026-11-22 12:14:02.518 [INFO    ] [MainThread] kanjilens:main:8754 | Windows app-owned DXGI capture selector enabled · per-monitor frame cache starts on the native hotkey listener; MSS/Qt selector is compatibility fallback; OCR model initialization deferred until after region selection
+2026-11-22 12:14:02.694 [DEBUG   ] [MainThread] kanjilens:refresh_visible_page:8023 | UI page refresh started · page=dict
+2026-11-22 12:14:02.694 [INFO    ] [MainThread] kanjilens:refresh_visible_page:8046 | UI page refresh dispatched · page=dict elapsed=0.1ms
+2026-11-22 12:14:02.695 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7403 | Application foreground runtime resumed; storage/lookup/OCR lanes remain available
+2026-11-22 12:14:02.708 [INFO    ] [Dummy-2] kanjilens:init_db:365 | User store initialized: E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.db
+2026-11-22 12:14:02.708 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=database-init lane=storage queue_ms=229.4 run_ms=364.7 thread=Dummy-2
+2026-11-22 12:14:02.862 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=settings-diagnostics-1795338842694980000 lane=storage queue_ms=157.2 run_ms=10.2 thread=Dummy-2
+2026-11-22 12:14:02.897 [INFO    ] [MainThread] kanjilens:_database_ready:7496 | User database initialized on the storage worker
+2026-11-22 12:14:02.929 [INFO    ] [MainThread] kanjilens:init_db:365 | User store initialized: E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.db
+2026-11-22 12:14:02.982 [INFO    ] [MainThread] kanjilens:debug_log:130 | PotPlayer server listening at http://127.0.0.1:5100
+2026-11-22 12:14:03.073 [DEBUG   ] [Dummy-3] kanjilens:ollama_get_models:2395 | Ollama installed model tags: ['gemma4:12b', 'SentenceMaker:latest']
+2026-11-22 12:14:03.077 [INFO    ] [MainThread] kanjilens:_startup_ollama_models_ready:7545 | Startup Ollama model ready · selected=SentenceMaker:latest installed=2
+2026-11-22 12:14:03.122 [INFO    ] [MainThread] kanjilens:_startup_ollama_jobs_requeued:7555 | Startup Ollama validation complete · failed_jobs_requeued=0
+2026-11-22 12:14:05.724 [INFO    ] [KanjiLensDXGIFrameCache] kanjilens:_initialize:375 | DXGI monitor cache warmed · device=0 output=0 name=\\.\DISPLAY2 desktop_rect=(0,0,1920,1080) frame=1920x1080 rotation=0
+2026-11-22 12:14:05.880 [INFO    ] [KanjiLensDXGIFrameCache] kanjilens:_initialize:375 | DXGI monitor cache warmed · device=0 output=1 name=\\.\DISPLAY1 desktop_rect=(-1920,0,1920,1080) frame=1920x1080 rotation=0
+2026-11-22 12:14:05.880 [INFO    ] [KanjiLensDXGIFrameCache] kanjilens:_initialize:413 | DXGI capture cache ready · monitors=2 target_fps=30 per_output_buffers=2 backend=DXGI BGRA
+2026-11-22 12:14:05.892 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_ensure_overlay_windows:877 | Native Win32 selector windows precreated and excluded from DDA · monitors=2 geometry=(('\\\\.\\DISPLAY2', 0, 0, 1920, 1080), ('\\\\.\\DISPLAY1', -1920, 0, 1920, 1080))
+2026-11-22 12:14:05.892 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_cache_ready_on_hotkey_thread:913 | Native Win32 capture selector is ready before first shortcut
+2026-11-22 12:14:05.892 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY1 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=771532251.1 hotkey_to_first_paint_ms=-1.0 frame_age_ms=-1.0
+2026-11-22 12:14:05.893 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY2 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=771532251.4 hotkey_to_first_paint_ms=-1.0 frame_age_ms=-1.0
+2026-11-22 12:14:07.999 [DEBUG   ] [MainThread] kanjilens:_auto_sentence_claimed:7650 | Automatic sentence queue is empty
+2026-11-22 12:14:11.946 [INFO    ] [Win32WindowAudit] kanjilens:_run:8611 | External Win32 top-level window shown: hwnd=0x751a4e pid=39052 class='Chrome_WidgetWin_1' title='' exe='C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'
+2026-11-22 12:14:12.056 [WARNING ] [Win32WindowAudit] kanjilens:_run:8620 | Short-lived external Win32 window: hwnd=0x751a4e pid=39052 class='Chrome_WidgetWin_1' title='' exe='C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe' visible_ms=109.3
+2026-11-22 12:14:13.040 [INFO    ] [Win32WindowAudit] kanjilens:_run:8630 | External Win32 startup-window audit completed · observed=23
+2026-11-22 12:14:32.992 [DEBUG   ] [MainThread] kanjilens:_auto_sentence_claimed:7650 | Automatic sentence queue is empty
+2026-11-22 12:19:03.364 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154365 lane=storage queue_ms=0.1 run_ms=371.1 thread=Dummy-2
+2026-11-22 12:19:18.618 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154368 lane=storage queue_ms=0.1 run_ms=627.6 thread=Dummy-2
+2026-11-22 12:22:03.380 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154401 lane=storage queue_ms=0.1 run_ms=380.4 thread=Dummy-2
+2026-11-22 12:22:18.379 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154404 lane=storage queue_ms=0.2 run_ms=383.8 thread=Dummy-2
+2026-11-22 12:22:33.369 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154407 lane=storage queue_ms=0.1 run_ms=377.6 thread=Dummy-2
+2026-11-22 12:25:03.360 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154437 lane=storage queue_ms=0.1 run_ms=357.7 thread=Dummy-2
+2026-11-22 12:27:48.374 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154470 lane=storage queue_ms=0.1 run_ms=372.4 thread=Dummy-2
+2026-11-22 12:33:48.372 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154542 lane=storage queue_ms=0.0 run_ms=369.7 thread=Dummy-2
+2026-11-22 12:34:03.373 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154545 lane=storage queue_ms=0.1 run_ms=375.2 thread=Dummy-2
+2026-11-22 12:34:18.372 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154548 lane=storage queue_ms=0.1 run_ms=371.3 thread=Dummy-2
+2026-11-22 12:34:33.374 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154551 lane=storage queue_ms=0.1 run_ms=379.3 thread=Dummy-2
+2026-11-22 12:36:48.376 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154578 lane=storage queue_ms=0.1 run_ms=377.0 thread=Dummy-2
+2026-11-22 12:39:18.379 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154608 lane=storage queue_ms=0.1 run_ms=377.0 thread=Dummy-2
+2026-11-22 12:39:33.612 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154611 lane=storage queue_ms=0.1 run_ms=618.1 thread=Dummy-2
+2026-11-22 12:42:03.363 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154641 lane=storage queue_ms=0.1 run_ms=363.4 thread=Dummy-2
+2026-11-22 12:42:18.372 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=auto-sentence-poll-154644 lane=storage queue_ms=0.1 run_ms=370.9 thread=Dummy-2
+2026-11-22 12:43:25.824 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_run:1396 | Native capture hotkey received on dedicated Win32 thread · qt_bypass=True
+2026-11-22 12:43:25.857 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY2 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=21.4 hotkey_to_first_paint_ms=33.2 frame_age_ms=38.2
+2026-11-22 12:43:25.857 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_dispatch_capture_request:1001 | Native app-owned selector shown · monitors=2 hotkey_to_overlay_ms=33.4 cache_snapshot_ms=33.0 frames=[('\\\\.\\DISPLAY2', 1920, 1080), ('\\\\.\\DISPLAY1', 1920, 1080)] frame_ages_ms=[38.2, 56.2] native_thread=True
+2026-11-22 12:43:25.864 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY1 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=28.0 hotkey_to_first_paint_ms=39.8 frame_age_ms=56.2
+2026-11-22 12:43:28.690 [DEBUG   ] [KanjiLensNativeHotkeys] kanjilens:_commit_native_selection:1263 | Native DXGI frame refreshed on selection completion · monitor=\\.\DISPLAY2 frame_age_ms=30.0
+2026-11-22 12:43:28.794 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_commit_native_selection:1297 | Native DXGI ROI committed · monitor=\\.\DISPLAY2 desktop=(0,0) source_rect=(1668,324,1799,378) size=131x54 frame_source=selection-time-dxgi-frame frame_age_ms=30.0 crop_ms=4.8 hotkey_to_crop_ms=2867.2
+2026-11-22 12:43:28.796 [WARNING ] [MainThread] kanjilens:_native_snip_ready:5141 | Native region captured but could not map its DXGI device to a Qt screen; repeat-region will request a new selection · device=\\.\DISPLAY2
+2026-11-22 12:43:28.797 [INFO    ] [MainThread] kanjilens:_native_snip_ready:5149 | Native DXGI region handed to OCR review · size=131x54 hotkey_to_review_ms=2973.1
+2026-11-22 12:43:29.006 [INFO    ] [MainThread] kanjilens:eventFilter:8479 | Qt top-level window shown: class=OCRResultStudioWindow object='' title='KanjiLens · OCR Result Studio · OCR 1 · 131×54' parent=MainWindow: flags=0x8003003 geometry=(306, 101, 1308, 830) popup=False
+2026-11-22 12:43:29.017 [INFO    ] [MainThread] kanjilens:_region_cropped:5555 | OCR result tab opened before inference · sequence=1 tabs=1 size=131x54 capture_backend=DXcam 0.3.0 · DXGI in-memory frame cache capture_warning=False selection_to_review_ms=325.8
+2026-11-22 12:43:29.236 [INFO    ] [MainThread] kanjilens:dispatch_ocr_after_paint:5584 | OCR inference dispatched after result tab paint · sequence=1 delay_ms=35
+2026-11-22 12:43:29.237 [INFO    ] [Dummy-5] kanjilens:_status:1597 | OCR 5%: Preparing model cache
+2026-11-22 12:43:29.238 [INFO    ] [Dummy-5] kanjilens:_status:1597 | OCR 12%: Preparing CPU runtime
+2026-11-22 12:43:42.822 [INFO    ] [Dummy-5] kanjilens:ocr_load_models:2034 | OCR runtime: torch=2.15.0+cpu intra_threads=2
+2026-11-22 12:43:42.822 [INFO    ] [Dummy-5] kanjilens:_status:1597 | OCR 20%: Loading Japanese OCR engine (background)
+2026-11-22 12:43:45.327 [DEBUG   ] [MainThread] kanjilens:eventFilter:8505 | Qt top-level window hidden: class=MainWindow object='' visible_ms=1782824.5
+2026-11-22 12:43:45.356 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7410 | Application minimized/hidden; watchdog and new background sentence jobs paused
+2026-11-22 12:44:20.077 [INFO    ] [Dummy-5] kanjilens:_status:1597 | OCR 90%: Warming OCR inference runtime
+2026-11-22 12:44:22.908 [INFO    ] [Dummy-5] kanjilens:ocr_load_models:2067 | Lens 7 six-pass OCR engine and dictionary score cache warmed
+2026-11-22 12:44:22.908 [INFO    ] [Dummy-5] kanjilens:_status:1597 | OCR 100%: OCR ready · initialized and warmed in 53.7s
+2026-11-22 12:44:22.908 [INFO    ] [Dummy-5] kanjilens:ocr_load_models:2074 | OCR model loaded and warmed: elapsed=53.670s runtime/import=43.353s model_constructor=7.487s first_inference_warmup=0.363s cache=C:\Users\setupmaster\AppData\Local\KanjiLens\model_cache
+2026-11-22 12:44:22.909 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2278 | OCR six-pass scan started: selected_size=131x54 pixels=7074 engine=Lens7-color-aware-batch
+2026-11-22 12:44:23.343 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:generate_passes:399 | generate_passes: crop=(131, 54) color_signal=74.0 (monochrome_threshold=12.0) -> colour-isolation passes
+2026-11-22 12:44:29.027 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass A (Pass A — Baseline Grayscale): beam_candidates=['小切手'] -> ranked_best='小切手'
+2026-11-22 12:44:29.027 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass B (Pass B — Adaptive High Contrast (CLAHE + Otsu)): beam_candidates=['小切手'] -> ranked_best='小切手'
+2026-11-22 12:44:29.027 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass C (Pass C — Red Channel Isolation): beam_candidates=['小切手'] -> ranked_best='小切手'
+2026-11-22 12:44:29.027 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass D (Pass D — Green Channel Isolation): beam_candidates=['小切手'] -> ranked_best='小切手'
+2026-11-22 12:44:29.027 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass E (Pass E — Blue Channel Isolation): beam_candidates=['小切手'] -> ranked_best='小切手'
+2026-11-22 12:44:29.027 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass F (Pass F — Saturation Extraction): beam_candidates=['小切手'] -> ranked_best='小切手'
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:519 | ocr_get_passes() done in 6.12s — 1/6 passes gave a distinct non-empty result: A='小切手' | B='小切手' | C='小切手' | D='小切手' | E='小切手' | F='小切手'
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=0 key=A name=Pass A — Baseline Grayscale chars=3 candidates=1
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=1 key=B name=Pass B — Adaptive High Contrast (CLAHE + Otsu) chars=3 candidates=1
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=2 key=C name=Pass C — Red Channel Isolation chars=3 candidates=1
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=3 key=D name=Pass D — Green Channel Isolation chars=3 candidates=1
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=4 key=E name=Pass E — Blue Channel Isolation chars=3 candidates=1
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=5 key=F name=Pass F — Saturation Extraction chars=3 candidates=1
+2026-11-22 12:44:29.027 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2328 | OCR six-pass scan complete: size=131x54 elapsed=6.118s passes=6 distinct_texts=1
+2026-11-22 12:44:29.029 [INFO    ] [Dummy-5] kanjilens:run:85 | Runtime task completed · id=ocr-infer-1-1795340609236242700 lane=ocr queue_ms=1.2 run_ms=59791.4 thread=Dummy-5
+2026-11-22 12:44:29.033 [INFO    ] [MainThread] kanjilens:_on_ocr_done:5630 | OCR capture timings: sequence=1 model_load_or_wait=53.671s inference=6.119s total=60.011s remaining_sessions=0
+2026-11-22 12:44:30.114 [INFO    ] [Dummy-6] kanjilens:_jitendex_connection:875 | Indexed Jitendex dictionary opened: E:\Download\App\KanjiLens_Fusion\jitendex.db
+2026-11-22 12:44:30.355 [INFO    ] [Dummy-6] kanjilens:run:85 | Runtime task completed · id=ocr-dictionary-entries-2 lane=interactive queue_ms=1.3 run_ms=1197.3 thread=Dummy-6
+2026-11-22 12:44:34.417 [INFO    ] [Dummy-6] kanjilens:run:85 | Runtime task completed · id=ocr-entry-details-1 lane=interactive queue_ms=0.1 run_ms=4033.3 thread=Dummy-6
+2026-11-22 12:45:09.447 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_run:1396 | Native capture hotkey received on dedicated Win32 thread · qt_bypass=True
+2026-11-22 12:45:09.479 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY2 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=16.2 hotkey_to_first_paint_ms=31.7 frame_age_ms=35.1
+2026-11-22 12:45:09.479 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_dispatch_capture_request:1001 | Native app-owned selector shown · monitors=2 hotkey_to_overlay_ms=31.9 cache_snapshot_ms=31.5 frames=[('\\\\.\\DISPLAY2', 1920, 1080), ('\\\\.\\DISPLAY1', 1920, 1080)] frame_ages_ms=[35.1, 12.8] native_thread=True
+2026-11-22 12:45:09.480 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY1 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=17.0 hotkey_to_first_paint_ms=32.8 frame_age_ms=12.8
+2026-11-22 12:45:12.336 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_commit_native_selection:1297 | Native DXGI ROI committed · monitor=\\.\DISPLAY2 desktop=(0,0) source_rect=(1645,344,1736,392) size=91x48 frame_source=hotkey-snapshot frame_age_ms=35.1 crop_ms=4.6 hotkey_to_crop_ms=2877.9
+2026-11-22 12:45:12.339 [INFO    ] [MainThread] kanjilens:_restore_from_tray:8316 | Main window restored from background · trigger=native-snipping-complete
+2026-11-22 12:45:12.356 [WARNING ] [MainThread] kanjilens:_native_snip_ready:5141 | Native region captured but could not map its DXGI device to a Qt screen; repeat-region will request a new selection · device=\\.\DISPLAY2
+2026-11-22 12:45:12.356 [INFO    ] [MainThread] kanjilens:_native_snip_ready:5149 | Native DXGI region handed to OCR review · size=91x48 hotkey_to_review_ms=2909.7
+2026-11-22 12:45:12.435 [INFO    ] [MainThread] kanjilens:_region_cropped:5555 | OCR result tab opened before inference · sequence=2 tabs=2 size=91x48 capture_backend=DXcam 0.3.0 · DXGI in-memory frame cache capture_warning=False selection_to_review_ms=110.0
+2026-11-22 12:45:12.472 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7403 | Application foreground runtime resumed; storage/lookup/OCR lanes remain available
+2026-11-22 12:45:12.491 [INFO    ] [MainThread] kanjilens:dispatch_ocr_after_paint:5584 | OCR inference dispatched after result tab paint · sequence=2 delay_ms=35
+2026-11-22 12:45:12.491 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2278 | OCR six-pass scan started: selected_size=91x48 pixels=4368 engine=Lens7-color-aware-batch
+2026-11-22 12:45:12.492 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:generate_passes:399 | generate_passes: crop=(91, 48) color_signal=74.0 (monochrome_threshold=12.0) -> colour-isolation passes
+2026-11-22 12:45:17.222 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass A (Pass A — Baseline Grayscale): beam_candidates=['勲章'] -> ranked_best='勲章'
+2026-11-22 12:45:17.222 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass B (Pass B — Adaptive High Contrast (CLAHE + Otsu)): beam_candidates=['，勲章'] -> ranked_best='，勲章'
+2026-11-22 12:45:17.222 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass C (Pass C — Red Channel Isolation): beam_candidates=['勲章'] -> ranked_best='勲章'
+2026-11-22 12:45:17.222 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass D (Pass D — Green Channel Isolation): beam_candidates=['勲章'] -> ranked_best='勲章'
+2026-11-22 12:45:17.222 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass E (Pass E — Blue Channel Isolation): beam_candidates=['勲章'] -> ranked_best='勲章'
+2026-11-22 12:45:17.222 [DEBUG   ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:514 |   pass F (Pass F — Saturation Extraction): beam_candidates=['敷曽'] -> ranked_best='敷曽'
+2026-11-22 12:45:17.222 [INFO    ] [Dummy-5] kanjilens.ocr_v6:ocr_get_passes:519 | ocr_get_passes() done in 4.73s — 3/6 passes gave a distinct non-empty result: A='勲章' | B='，勲章' | C='勲章' | D='勲章' | E='勲章' | F='敷曽'
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=0 key=A name=Pass A — Baseline Grayscale chars=2 candidates=1
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=1 key=B name=Pass B — Adaptive High Contrast (CLAHE + Otsu) chars=3 candidates=1
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=2 key=C name=Pass C — Red Channel Isolation chars=2 candidates=1
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=3 key=D name=Pass D — Green Channel Isolation chars=2 candidates=1
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=4 key=E name=Pass E — Blue Channel Isolation chars=2 candidates=1
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2293 | OCR pass stored: index=5 key=F name=Pass F — Saturation Extraction chars=2 candidates=1
+2026-11-22 12:45:17.224 [INFO    ] [Dummy-5] kanjilens:ocr_run_passes:2328 | OCR six-pass scan complete: size=91x48 elapsed=4.732s passes=6 distinct_texts=3
+2026-11-22 12:45:17.225 [INFO    ] [Dummy-5] kanjilens:run:85 | Runtime task completed · id=ocr-infer-2-1795340712491869400 lane=ocr queue_ms=0.1 run_ms=4733.4 thread=Dummy-5
+2026-11-22 12:45:17.227 [INFO    ] [MainThread] kanjilens:_on_ocr_done:5630 | OCR capture timings: sequence=2 model_load_or_wait=0.000s inference=4.733s total=4.790s remaining_sessions=0
+2026-11-22 12:45:18.678 [INFO    ] [Dummy-7] kanjilens:run:85 | Runtime task completed · id=ocr-dictionary-entries-2 lane=interactive queue_ms=1.1 run_ms=1320.2 thread=Dummy-7
+2026-11-22 12:45:20.448 [INFO    ] [Dummy-7] kanjilens:run:85 | Runtime task completed · id=ocr-entry-details-1 lane=interactive queue_ms=0.1 run_ms=1768.6 thread=Dummy-7
+2026-11-22 12:45:20.893 [INFO    ] [MainThread] kanjilens:eventFilter:8479 | Qt top-level window shown: class=QFrame object='' title='' parent=QComboBox: flags=0x800f009 geometry=(387, 880, 367, 170) popup=True
+2026-11-22 12:45:21.784 [DEBUG   ] [MainThread] kanjilens:eventFilter:8501 | Qt popup/tooltip closed: class=QFrame object='' parent=QComboBox: visible_ms=890.7 popup=True tooltip=False
+2026-11-22 12:45:23.788 [INFO    ] [MainThread] kanjilens:_result_dialog_closed:5653 | OCR result tab closed · sequence=1 remaining_tabs=1 remaining_scans=0
+2026-11-22 12:45:32.314 [ERROR   ] [MainThread] kanjilens:log_exception:144 | Remembering the word-list destination failed
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 7987, in remember_list_target
+    idx = combo.findData(list_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: libshiboken: Internal C++ object (PySide6.QtWidgets.QComboBox) already deleted.
+2026-11-22 13:40:57.382 [WARNING ] [MainThread] kanjilens:_check_ui_event_loop_lag:7438 | Visible Qt event-loop delay: gap=5558.6ms page=DictionaryPage minimized=False capture_active=False capture_preparing=False ocr_inference=False auto_sentence_busy=False workers=0 lanes(storage=0 interactive=0 model=0 ocr=0)
+2026-11-22 13:41:07.252 [ERROR   ] [MainThread] kanjilens:log_exception:144 | Remembering the word-list destination failed
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 7987, in remember_list_target
+    idx = combo.findData(list_id)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: libshiboken: Internal C++ object (PySide6.QtWidgets.QComboBox) already deleted.
+2026-11-22 13:41:07.668 [INFO    ] [MainThread] kanjilens:eventFilter:8479 | Qt top-level window shown: class=QMessageBox object='' title='Already saved' parent=OCRResultDialog: flags=0x8003103 geometry=(896, 509, 233, 111) popup=False
+2026-11-22 13:41:13.605 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_run:1396 | Native capture hotkey received on dedicated Win32 thread · qt_bypass=True
+2026-11-22 13:41:13.770 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY2 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=14.8 hotkey_to_first_paint_ms=164.4 frame_age_ms=3069639.1
+2026-11-22 13:41:13.771 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_dispatch_capture_request:1001 | Native app-owned selector shown · monitors=2 hotkey_to_overlay_ms=165.1 cache_snapshot_ms=158.6 frames=[('\\\\.\\DISPLAY2', 1920, 1080), ('\\\\.\\DISPLAY1', 1920, 1080)] frame_ages_ms=[3069639.1, 3069639.8] native_thread=True
+2026-11-22 13:41:13.771 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY1 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=15.3 hotkey_to_first_paint_ms=165.8 frame_age_ms=3069639.8
+2026-11-22 13:41:16.241 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_cancel_active_selection:1037 | Native OCR selection cancelled · generation=3 reason=escape
+2026-11-22 13:41:16.248 [INFO    ] [MainThread] kanjilens:_native_snip_cancelled:5179 | Native app-owned capture cancelled · generation=3
+2026-11-22 13:41:27.491 [DEBUG   ] [MainThread] kanjilens:eventFilter:8505 | Qt top-level window hidden: class=OCRResultStudioWindow object='' visible_ms=3478484.9
+2026-11-22 13:41:27.491 [INFO    ] [MainThread] kanjilens:_result_dialog_closed:5653 | OCR result tab closed · sequence=2 remaining_tabs=0 remaining_scans=0
+2026-11-22 13:41:28.337 [INFO    ] [MainThread] kanjilens:_auto_sentence_claimed:7656 | Automatic sentence claimed: word_id=48 headword='小切手' model='SentenceMaker:latest'
+2026-11-22 13:41:28.398 [DEBUG   ] [Dummy-3] kanjilens:ollama_get_models:2395 | Ollama installed model tags: ['gemma4:12b', 'SentenceMaker:latest']
+2026-11-22 13:41:28.399 [INFO    ] [Dummy-3] kanjilens:ollama_query:2722 | Ollama sentence request started · model='SentenceMaker:latest' endpoint=/api/chat think=false prompt_chars=811 format=schema/json
+2026-11-22 13:41:29.120 [DEBUG   ] [MainThread] kanjilens:eventFilter:8505 | Qt top-level window hidden: class=MainWindow object='' visible_ms=3376780.8
+2026-11-22 13:41:29.165 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7410 | Application minimized/hidden; watchdog and new background sentence jobs paused
+2026-11-22 13:41:47.201 [INFO    ] [Dummy-3] kanjilens:ollama_query:2737 | Ollama sentence response · model='SentenceMaker:latest' chars=153 eval_count=57 done_reason='stop' thinking_chars=0
+2026-11-22 13:41:47.203 [INFO    ] [Dummy-3] kanjilens:run:85 | Runtime task completed · id=auto-sentence-generate-48-1795344088337883300 lane=model queue_ms=0.8 run_ms=18863.7 thread=Dummy-3
+2026-11-22 13:41:47.363 [INFO    ] [Dummy-2] kanjilens:save:7711 | Automatic sentence saved: word_id=48 headword='小切手' elapsed=19.08s model='SentenceMaker:latest'
+2026-11-22 14:13:55.042 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_run:1396 | Native capture hotkey received on dedicated Win32 thread · qt_bypass=True
+2026-11-22 14:14:01.953 [INFO    ] [MainThread] kanjilens:_restore_from_tray:8316 | Main window restored from background · trigger=tray-icon-activated
+2026-11-22 14:14:02.153 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7403 | Application foreground runtime resumed; storage/lookup/OCR lanes remain available
+2026-11-22 14:14:07.324 [INFO    ] [MainThread] kanjilens:_auto_sentence_claimed:7656 | Automatic sentence claimed: word_id=49 headword='勲章' model='SentenceMaker:latest'
+2026-11-22 14:14:07.371 [DEBUG   ] [Dummy-3] kanjilens:ollama_get_models:2395 | Ollama installed model tags: ['gemma4:12b', 'SentenceMaker:latest']
+2026-11-22 14:14:07.372 [INFO    ] [Dummy-3] kanjilens:ollama_query:2722 | Ollama sentence request started · model='SentenceMaker:latest' endpoint=/api/chat think=false prompt_chars=815 format=schema/json
+2026-11-22 14:14:54.763 [WARNING ] [MainThread] kanjilens:_check_ui_event_loop_lag:7438 | Visible Qt event-loop delay: gap=5569.8ms page=DictionaryPage minimized=False capture_active=False capture_preparing=False ocr_inference=False auto_sentence_busy=True workers=1 lanes(storage=0 interactive=0 model=1 ocr=0)
+2026-11-22 14:15:20.058 [DEBUG   ] [MainThread] kanjilens:switch_page:8020 | UI page switch stage · page=draw stack_set_ms=150.9
+2026-11-22 14:15:20.124 [DEBUG   ] [MainThread] kanjilens:refresh_visible_page:8023 | UI page refresh started · page=draw
+2026-11-22 14:15:20.146 [INFO    ] [MainThread] kanjilens:refresh_visible_page:8046 | UI page refresh dispatched · page=draw elapsed=23.2ms
+2026-11-22 14:16:38.481 [WARNING ] [MainThread] kanjilens:_check_ui_event_loop_lag:7438 | Visible Qt event-loop delay: gap=5798.3ms page=KanjiDrawPage minimized=False capture_active=False capture_preparing=False ocr_inference=False auto_sentence_busy=True workers=1 lanes(storage=0 interactive=0 model=1 ocr=0)
+2026-11-22 14:17:50.198 [WARNING ] [MainThread] kanjilens:_check_ui_event_loop_lag:7438 | Visible Qt event-loop delay: gap=5519.0ms page=KanjiDrawPage minimized=False capture_active=False capture_preparing=False ocr_inference=False auto_sentence_busy=True workers=1 lanes(storage=0 interactive=0 model=1 ocr=0)
+2026-11-22 14:18:07.385 [WARNING ] [Dummy-3] kanjilens:ollama_query:2776 | Ollama request failed: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240.0)
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\setupmaster\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\setupmaster\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\setupmaster\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 286, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\setupmaster\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\util\retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\connectionpool.py", line 542, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\urllib3\connectionpool.py", line 373, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240.0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_core.py", line 2724, in ollama_query
+    response = requests.post("http://127.0.0.1:11434/api/chat", json=chat_payload,
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\requests\api.py", line 134, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\.venv\Lib\site-packages\requests\adapters.py", line 742, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240.0)
+2026-11-22 14:18:07.455 [ERROR   ] [Dummy-3] kanjilens:run:92 | Runtime task failed · id=auto-sentence-generate-49-1795346047324849100 lane=model queue_ms=0.3 thread=Dummy-3
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_runtime.py", line 82, in run
+    result = self.fn()
+             ^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 7673, in generate
+    generated = kb.ollama_generate_examples([word], examples_per_word=1)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_core.py", line 2859, in ollama_generate_examples
+    raise RuntimeError(response)
+RuntimeError: Ollama error: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240.0)
+
+2026-11-22 14:18:07.456 [ERROR   ] [MainThread] kanjilens:_task_failed:7851 | Background task auto-sentence-generate-49-1795346047324849100 failed:
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_runtime.py", line 82, in run
+    result = self.fn()
+             ^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 7673, in generate
+    generated = kb.ollama_generate_examples([word], examples_per_word=1)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_core.py", line 2859, in ollama_generate_examples
+    raise RuntimeError(response)
+RuntimeError: Ollama error: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240.0)
+
+2026-11-22 14:18:07.650 [ERROR   ] [MainThread] kanjilens:_auto_sentence_failed:7792 | Automatic sentence generation paused · Ollama appears unreachable (word_id=49 headword='勲章'):
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_runtime.py", line 82, in run
+    result = self.fn()
+             ^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 7673, in generate
+    generated = kb.ollama_generate_examples([word], examples_per_word=1)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_core.py", line 2859, in ollama_generate_examples
+    raise RuntimeError(response)
+RuntimeError: Ollama error: HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=240.0)
+
+2026-11-22 14:18:16.359 [DEBUG   ] [MainThread] kanjilens:eventFilter:8505 | Qt top-level window hidden: class=MainWindow object='' visible_ms=254375.3
+2026-11-22 14:18:16.591 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7410 | Application minimized/hidden; watchdog and new background sentence jobs paused
+2026-11-22 14:19:18.626 [INFO    ] [MainThread] kanjilens:eventFilter:8479 | Qt top-level window shown: class=QMenu object='' title='' parent=MainWindow: flags=0x800f009 geometry=(1656, 949, 141, 52) popup=True
+2026-11-22 14:19:19.479 [DEBUG   ] [MainThread] kanjilens:eventFilter:8501 | Qt popup/tooltip closed: class=QMenu object='' parent=MainWindow: visible_ms=869.6 popup=True tooltip=False
+2026-11-22 14:19:25.215 [DEBUG   ] [MainThread] kanjilens:eventFilter:8501 | Qt popup/tooltip closed: class=QMenu object='' parent=MainWindow: visible_ms=798.3 popup=True tooltip=False
+2026-11-22 14:19:25.694 [WARNING ] [MainThread] kanjilens:stop:1445 | Native hotkey thread has not exited within shutdown grace period; leaving daemon thread to finish · timeout_ms=350
+2026-11-22 14:19:25.698 [DEBUG   ] [MainThread] kanjilens:_release_camera:256 | DXGI camera release scheduled asynchronously · camera_id=138bd3b8b10
+2026-11-22 14:19:25.816 [DEBUG   ] [MainThread] kanjilens:_release_camera:256 | DXGI camera release scheduled asynchronously · camera_id=138c4884690
+2026-11-22 14:19:25.816 [INFO    ] [MainThread] kanjilens:stop:505 | DXGI frame cache stop requested · cameras=2 release_workers=2 initializer_alive=False non_blocking=True
+2026-11-22 14:19:25.816 [INFO    ] [MainThread] kanjilens:stop:1454 | Native hotkey and DXGI shutdown requested · UI thread wait bounded_ms=350
+2026-11-22 14:19:25.851 [WARNING ] [KanjiLensNativeHotkeys] kanjilens:_dispatch_capture_request:1013 | Native DXGI selector could not start; using KanjiLens compatibility selector: DXGI frame cache is not ready
+Traceback (most recent call last):
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 962, in _dispatch_capture_request
+    self._ensure_overlay_windows()
+  File "E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.pyw", line 809, in _ensure_overlay_windows
+    raise RuntimeError("DXGI frame cache is not ready")
+RuntimeError: DXGI frame cache is not ready
+2026-11-22 14:19:26.085 [INFO    ] [MainThread] kanjilens:debug_log:130 | PotPlayer HTTP server stopped
+2026-11-22 14:19:26.085 [INFO    ] [MainThread] kanjilens:debug_log:130 | KanjiLens Fusion shutdown
+2026-11-22 14:19:38.385 [INFO    ] [MainThread] kanjilens:<module>:2928 | Fusion core initialized · app_dir=E:\Download\App\KanjiLens_Fusion · db=E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.db · online_dictionary=True
+2026-11-22 14:19:41.541 [INFO    ] [MainThread] kanjilens:main:8729 | ==============================================================================
+2026-11-22 14:19:41.962 [INFO    ] [MainThread] kanjilens:main:8730 | Starting KanjiLens Fusion 1.3.4 · Python 3.11.9 · OS Windows-10-10.0.26200-SP0
+2026-11-22 14:19:42.782 [INFO    ] [MainThread] kanjilens:_refresh_screen_cache:4973 | OCR screen topology cache refreshed: displays=2 geometries=[('LG FULL HD', 1920, 1080), ('DELL P2217H', 1920, 1080)]
+2026-11-22 14:19:42.827 [DEBUG   ] [MainThread] kanjilens:switch_page:8020 | UI page switch stage · page=dict stack_set_ms=0.0
+2026-11-22 14:19:42.848 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_run:1345 | Native selector thread DPI context set · PER_MONITOR_AWARE_V2
+2026-11-22 14:19:42.849 [INFO    ] [MainThread] kanjilens:start_capture_cache:655 | DXGI in-memory monitor cache initialization queued · target_fps=30 · ring_buffer_len=2
+2026-11-22 14:19:42.849 [INFO    ] [MainThread] kanjilens:debug_log:130 | Native Windows hotkeys registered: capture=Ctrl + Shift + 1, recapture=Ctrl + Shift + X
+2026-11-22 14:19:42.849 [INFO    ] [MainThread] kanjilens:__init__:7376 | KanjiLens Fusion UI initialized, Python=3.11.9, Qt=1.3.4, base=E:\Download\App\KanjiLens_Fusion
+2026-11-22 14:19:42.849 [INFO    ] [MainThread] kanjilens:__init__:7378 | Runtime lanes: capture=1(MSS fallback warm-up) storage=1 interactive=2 model=1 OCR=1; DXGI frame cache runs per output at 30fps; native selector owns a Win32 message thread; Manga OCR loads only after review is visible; settings writes=coalesced
+2026-11-22 14:19:42.849 [INFO    ] [MainThread] kanjilens:__init__:7379 | Optional datasets: kanjidic=False, tatoeba=False; online_dictionary=True; OCR screenshots auto-save disabled
+2026-11-22 14:19:42.850 [INFO    ] [MainThread] kanjilens:main:8739 | MainWindow construction completed · elapsed=884.3ms
+2026-11-22 14:19:43.068 [INFO    ] [MainThread] kanjilens:eventFilter:8479 | Qt top-level window shown: class=MainWindow object='' title='KanjiLens Fusion 1.3.4' parent=<none> flags=0x800f001 geometry=(300, 91, 1320, 850) popup=False
+2026-11-22 14:19:43.085 [INFO    ] [MainThread] kanjilens:main:8745 | Main application window show requested · elapsed=236.2ms
+2026-11-22 14:19:43.085 [INFO    ] [MainThread] kanjilens:main:8754 | Windows app-owned DXGI capture selector enabled · per-monitor frame cache starts on the native hotkey listener; MSS/Qt selector is compatibility fallback; OCR model initialization deferred until after region selection
+2026-11-22 14:19:43.107 [DEBUG   ] [MainThread] kanjilens:refresh_visible_page:8023 | UI page refresh started · page=dict
+2026-11-22 14:19:43.107 [INFO    ] [MainThread] kanjilens:refresh_visible_page:8046 | UI page refresh dispatched · page=dict elapsed=0.1ms
+2026-11-22 14:19:43.108 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7403 | Application foreground runtime resumed; storage/lookup/OCR lanes remain available
+2026-11-22 14:19:43.166 [INFO    ] [Dummy-2] kanjilens:init_db:365 | User store initialized: E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.db
+2026-11-22 14:19:43.166 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=database-init lane=storage queue_ms=173.4 run_ms=143.5 thread=Dummy-2
+2026-11-22 14:19:43.174 [INFO    ] [MainThread] kanjilens:_database_ready:7496 | User database initialized on the storage worker
+2026-11-22 14:19:43.285 [WARNING ] [MainThread] kanjilens:_connection:251 | SQLite user-database transaction ran on UI thread · elapsed=91.1ms · caller=File "E:\Download\App\KanjiLens_Fusion\potplayer_server.py", line 510, in start
+    server = make_server(self.host, self.port, create_flask_app(), threaded=True) | File "E:\Download\App\KanjiLens_Fusion\potplayer_server.py", line 192, in create_flask_app
+    kb.init_db()  # the bridge can also be constructed independently of the desktop shell | File "E:\Download\App\KanjiLens_Fusion\kanjilens_core.py", line 257, in init_db
+    with _connection() as con: | File "C:\Users\setupmaster\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+2026-11-22 14:19:43.285 [INFO    ] [MainThread] kanjilens:init_db:365 | User store initialized: E:\Download\App\KanjiLens_Fusion\kanjilens_fusion.db
+2026-11-22 14:19:43.399 [WARNING ] [MainThread] kanjilens:_connection:251 | SQLite user-database transaction ran on UI thread · elapsed=105.8ms · caller=File "E:\Download\App\KanjiLens_Fusion\potplayer_server.py", line 194, in create_flask_app
+    _list_id("PotPlayer")  # ensure the default destination exists before the page renders | File "E:\Download\App\KanjiLens_Fusion\potplayer_server.py", line 120, in _list_id
+    for item in kb.db_get_lists(): | File "E:\Download\App\KanjiLens_Fusion\kanjilens_core.py", line 369, in db_get_lists
+    with _connection() as con: | File "C:\Users\setupmaster\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 144, in __exit__
+    next(self.gen)
+2026-11-22 14:19:43.435 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=ocr-history-load-1 lane=storage queue_ms=220.4 run_ms=109.3 thread=Dummy-2
+2026-11-22 14:19:43.437 [INFO    ] [MainThread] kanjilens:debug_log:130 | PotPlayer server listening at http://127.0.0.1:5100
+2026-11-22 14:19:43.485 [DEBUG   ] [Dummy-4] kanjilens:ollama_get_models:2395 | Ollama installed model tags: ['gemma4:12b', 'SentenceMaker:latest']
+2026-11-22 14:19:43.486 [INFO    ] [MainThread] kanjilens:_startup_ollama_models_ready:7545 | Startup Ollama model ready · selected=SentenceMaker:latest installed=2
+2026-11-22 14:19:43.505 [INFO    ] [Dummy-2] kanjilens:run:85 | Runtime task completed · id=settings-diagnostics-1795346383106511600 lane=storage queue_ms=328.7 run_ms=69.6 thread=Dummy-2
+2026-11-22 14:19:43.612 [INFO    ] [MainThread] kanjilens:_startup_ollama_jobs_requeued:7555 | Startup Ollama validation complete · failed_jobs_requeued=1
+2026-11-22 14:19:46.699 [INFO    ] [KanjiLensDXGIFrameCache] kanjilens:_initialize:375 | DXGI monitor cache warmed · device=0 output=0 name=\\.\DISPLAY2 desktop_rect=(0,0,1920,1080) frame=1920x1080 rotation=0
+2026-11-22 14:19:46.852 [INFO    ] [KanjiLensDXGIFrameCache] kanjilens:_initialize:375 | DXGI monitor cache warmed · device=0 output=1 name=\\.\DISPLAY1 desktop_rect=(-1920,0,1920,1080) frame=1920x1080 rotation=0
+2026-11-22 14:19:46.853 [INFO    ] [KanjiLensDXGIFrameCache] kanjilens:_initialize:413 | DXGI capture cache ready · monitors=2 target_fps=30 per_output_buffers=2 backend=DXGI BGRA
+2026-11-22 14:19:46.861 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_ensure_overlay_windows:877 | Native Win32 selector windows precreated and excluded from DDA · monitors=2 geometry=(('\\\\.\\DISPLAY2', 0, 0, 1920, 1080), ('\\\\.\\DISPLAY1', -1920, 0, 1920, 1080))
+2026-11-22 14:19:46.861 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_cache_ready_on_hotkey_thread:913 | Native Win32 capture selector is ready before first shortcut
+2026-11-22 14:19:46.861 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY1 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=779073219.5 hotkey_to_first_paint_ms=-1.0 frame_age_ms=-1.0
+2026-11-22 14:19:46.861 [INFO    ] [KanjiLensNativeHotkeys] kanjilens:_paint_native_overlay:1198 | Native Win32 selector first paint · monitor=\\.\DISPLAY2 mode=live-desktop-translucent source=1920x1080 overlay=1920x1080 screenshot_rendered=False show_to_paint_ms=779073219.8 hotkey_to_first_paint_ms=-1.0 frame_age_ms=-1.0
+2026-11-22 14:19:47.578 [DEBUG   ] [MainThread] kanjilens:switch_page:8020 | UI page switch stage · page=draw stack_set_ms=10.5
+2026-11-22 14:19:47.580 [DEBUG   ] [MainThread] kanjilens:refresh_visible_page:8023 | UI page refresh started · page=draw
+2026-11-22 14:19:47.580 [INFO    ] [MainThread] kanjilens:refresh_visible_page:8046 | UI page refresh dispatched · page=draw elapsed=0.3ms
+2026-11-22 14:19:48.499 [INFO    ] [MainThread] kanjilens:_auto_sentence_claimed:7656 | Automatic sentence claimed: word_id=49 headword='勲章' model='SentenceMaker:latest'
+2026-11-22 14:19:48.532 [DEBUG   ] [Dummy-4] kanjilens:ollama_get_models:2395 | Ollama installed model tags: ['gemma4:12b', 'SentenceMaker:latest']
+2026-11-22 14:19:48.532 [INFO    ] [Dummy-4] kanjilens:ollama_query:2722 | Ollama sentence request started · model='SentenceMaker:latest' endpoint=/api/chat think=false prompt_chars=815 format=schema/json
+2026-11-22 14:19:56.603 [INFO    ] [Win32WindowAudit] kanjilens:_run:8630 | External Win32 startup-window audit completed · observed=24
+2026-11-22 14:20:59.258 [DEBUG   ] [MainThread] kanjilens:eventFilter:8505 | Qt top-level window hidden: class=MainWindow object='' visible_ms=76189.0
+2026-11-22 14:20:59.336 [INFO    ] [MainThread] kanjilens:_refresh_runtime_visibility:7410 | Application minimized/hidden; watchdog and new background sentence jobs paused
